@@ -14,5 +14,5 @@ while  len (friends) < 5:
 
 
 print ("You have", len (friends), "friends")
-for i in range ( 1 ):
+for i in range ( len(friends) ):
     print ( " ", i, ">>", friends [i])
