@@ -22,10 +22,8 @@ client[0] = "Marry"
 status[0] = "not-free"
 
 # 2. John orders a soup
-#ti = table index
-client_name = "John"
 
-# HW: try to add input from kb
+client_name = "John"
 
 food_order_name = input ("What would you like to order?:")
 
@@ -36,8 +34,6 @@ else:
     print ("Sorry we don't have that! you can choose only from the menu")
 
 print ()
-
-
 
 client_idx = client.index(client_name)
 order[client_idx] = food_order_name
@@ -52,7 +48,6 @@ for ti in range (len(status)):
             print(f"\t {client [ti]}")
         if bill [ti] == False:
             print (" ")
-        #HW: do not show this if no order
         else:
                 print (f"\t { order[ti]} -> {bill [ti]} % {tip [ti]}")
 
