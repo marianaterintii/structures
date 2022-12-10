@@ -13,8 +13,7 @@ students_last_name.append( "Pierre" )
 students_age.append( 21 )
 students_mark.append ( 9 )
 
-index = []
-student_index = students_first_name.index
+
 while True:
     student_data = ( input ("Enter students data:" ) )
     if student_data == " ":
