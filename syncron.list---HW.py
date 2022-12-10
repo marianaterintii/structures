@@ -30,7 +30,7 @@ while True:
 print ()
 
 
-for x in range(4):
+for x in range(0):
     print ( f" {x+1} {students_first_name[x]} {students_last_name[x]} {students_age[x]} {students_mark[x]}")
     
 
