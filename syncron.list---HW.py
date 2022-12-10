@@ -31,7 +31,7 @@ print ()
 
 
 for x in range(4):
-    print ( f"{x+1}",students_first_name[x], students_last_name[x], students_age[x],  students_mark[x])
+    print ( f" {x+1} {students_first_name[x]} {students_last_name[x]} {students_age[x]} {students_mark[x]}")
     
 
 print ()
