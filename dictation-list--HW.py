@@ -43,7 +43,7 @@ print("Person age",people_ages[name_x])
 print()
 
 # 8. Change age +
-new_data = input("New data:")
+new_data = input("New person data:")
 new_data = new_data.split()
 
 print()
