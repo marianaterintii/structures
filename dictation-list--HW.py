@@ -30,19 +30,19 @@ nr_idx = input("enter index:")
 
 #show name/age 
 # cum afisez numele si virsta de pe indice?
-
+print()
 #7 input name, find name place + then show age -
 # if not found person does not exist
 name = [] 
 name_idx = input ("Enter name:" )
 name_x = people_names.index(name_idx)
 print (name_x)
-
+print()
 #cum extrag virsta utilizind valoarea
 
 # 8. Change age ???
 new_data = input("New data:")
-
+print()
 # 9. delete person data
 delete_person = input ("Delete person:")
 delete_x = people_names.index(delete_person)
@@ -51,7 +51,7 @@ people_ages.pop (delete_x)
 print("New list:")
 print(people_names)
 print (people_ages)
-
+print()
 #10. add new person data
 
 new_person = input("Add new person:")
@@ -61,7 +61,7 @@ people_ages.append(new_person[1])
 print("New list:")
 print(people_names)
 print (people_ages)
-
+print()
 # 11 insert in certain place new person ???
 
 new_person = input("Add new person idx:")
