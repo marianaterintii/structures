@@ -33,7 +33,7 @@ print (people_names[n_idx], people_ages[n_idx])
 print()
 #7 input name, find name place + then show age +
 # if not found person does not exist
-name = [] 
+
 name_idx = input ("Enter name to find index:" )
 name_x = people_names.index(name_idx)
 print ("Person index:", name_x)
