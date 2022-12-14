@@ -19,29 +19,33 @@ for j in people:
     if (type(j) is str):
         people_names.append(j)
     else:
-       (type(j) is int)
        people_ages.append(j)
-print ("people names:", people_names)
-print("people age:", people_ages)
+print ("People names:", people_names)
+print("People age:", people_ages)
         
 print()
 #6 input index
-nr_idx = input("enter index:")
 
-#show name/age 
-# cum afisez numele si virsta de pe indice?
+nr_idx = input("Enter index to find data:")
+n_idx = int(nr_idx)
+print (people_names[n_idx], people_ages[n_idx])
+
 print()
-#7 input name, find name place + then show age -
+#7 input name, find name place + then show age +
 # if not found person does not exist
 name = [] 
-name_idx = input ("Enter name:" )
+name_idx = input ("Enter name to find index:" )
 name_x = people_names.index(name_idx)
-print (name_x)
-print()
-#cum extrag virsta utilizind valoarea
+print ("Person index:", name_x)
+print("Person age",people_ages[name_x])
 
-# 8. Change age ???
+
+print()
+
+# 8. Change age +
 new_data = input("New data:")
+new_data = new_data.split()
+
 print()
 # 9. delete person data
 delete_person = input ("Delete person:")
@@ -51,6 +55,7 @@ people_ages.pop (delete_x)
 print("New list:")
 print(people_names)
 print (people_ages)
+
 print()
 #10. add new person data
 
@@ -61,6 +66,7 @@ people_ages.append(new_person[1])
 print("New list:")
 print(people_names)
 print (people_ages)
+
 print()
 # 11 insert in certain place new person ???
 
