@@ -48,6 +48,9 @@ delete_person = input ("Delete person:")
 delete_x = people_names.index(delete_person)
 people_names.pop (delete_x)
 people_ages.pop (delete_x)
+print("New list:")
+print(people_names)
+print (people_ages)
 
 #10. add new person data
 
