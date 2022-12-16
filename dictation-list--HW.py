@@ -70,7 +70,12 @@ print (people_ages)
 print()
 # 11 insert in certain place new person ???
 
-new_person = input("Add new person idx:")
+new_person = input("Add new person at specific place:")
+new_1 = new_person.split()
+people_names.insert (0, new_1[0])
+people_ages.insert (0, new_1[1])
+print (people_names)
+print (people_ages)
 
     
 
