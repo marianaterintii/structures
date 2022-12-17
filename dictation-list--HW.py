@@ -75,11 +75,10 @@ print()
 
 new_person = input("Add new person at specific place:")
 new_1 = new_person.split()
-people_names.insert (0, new_1[0])
-people_ages.insert (0, new_1[1])
+people_names.insert (int (new_1 [2]), new_1[0])
+people_ages.insert (int (new_1 [2]), new_1[1])
 print (people_names)
 print (people_ages)
-
     
 
 
