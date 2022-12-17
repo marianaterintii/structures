@@ -79,6 +79,8 @@ people_names.insert (int (new_1 [2]), new_1[0])
 people_ages.insert (int (new_1 [2]), new_1[1])
 print (people_names)
 print (people_ages)
+
+print()
     
 
 
