@@ -45,6 +45,9 @@ print()
 # 8. Change age +
 new_data = input("New person data:")
 new_data = new_data.split()
+new_pers_data = people_names.index(new_data[0])
+people_ages [new_pers_data] = int (new_data[1])
+print(people_ages)
 
 print()
 # 9. delete person data
