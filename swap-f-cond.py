@@ -21,9 +21,15 @@ placeB = int (input("To which place?: "))
 temp_1 = people  [placeA]
 people [placeA] = people [placeB]
 people [placeB] = temp_1
-print ("AFTER", people)
 
 
+for i in range(len (people)):
+    if i == placeA or i == placeB or i != placeA or i != placeB:
+        print ("AFTER", people)
+        break
+    else:
+        print("Does not exists")
+       
 
 
      
