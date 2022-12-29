@@ -18,19 +18,18 @@ print()
 placeA = int (input("Place to change?: "))
 placeB = int (input("To which place?: "))
 
-temp_1 = people  [placeA]
-people [placeA] = people [placeB]
-people [placeB] = temp_1
 
+#temp_1 = people  [placeA]
+#people [placeA] = people [placeB]
+#people [placeB] = temp_1
 
-for i in range(len (people)):
-    if i == placeA or i == placeB or i != placeA or i != placeB:
-        print ("AFTER", people)
-        break
-    else:
-        print("Does not exists")
-       
+if placeA >= 0 and placeA< len(people) and placeB >= 0 and placeB< len(people):
+    print ("AFTER", people)
+else:
+    print("Does not exists")
+print() 
+
+     
 
 
      
-print()
